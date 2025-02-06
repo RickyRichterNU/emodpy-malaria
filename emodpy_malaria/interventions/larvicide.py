@@ -107,6 +107,7 @@ def add_larvicide(
     """
 
     campaign.add(_create_event(campaign, start_day=start_day, spray_coverage=spray_coverage,
+                               num_repetitions=num_repetitions, timesteps_between_reps= timesteps_between_reps,
                                killing_effect=killing_effect, habitat_target=habitat_target,
                                insecticide=insecticide, box_duration=box_duration,
                                decay_time_constant=decay_time_constant, node_ids=node_ids ) )
